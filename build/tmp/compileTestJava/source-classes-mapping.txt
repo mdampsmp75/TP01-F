@@ -1,2 +1,0 @@
-Tp_BonCoin.java
- Tp_BonCoin
