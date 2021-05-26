@@ -35,7 +35,7 @@ public class Tp_BonCoin {
         By allCategorieSelector = By.cssSelector("#gh-shop-a");
         driver.findElement(allCategorieSelector).click();
 
-        By sportVacancesSelector = By.xpath("//*[@id=\"gh-sbc\"]/tbody/tr/td[2]/ul[1]/li[3]/a");
+        By sportVacancesSelector = By.cssSelector(".scnd[_sp='m570.l3778']");
         driver.findElement(sportVacancesSelector).click();
 
         By firstArcticleSelector = By.xpath("//*[@id=\"s0-27_2-9-0-1[0]-0-0-xCarousel-x-carousel-items\"]/ul/li[1]/a/div[1]/div/img");
